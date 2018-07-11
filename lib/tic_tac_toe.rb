@@ -44,4 +44,6 @@ class TicTacToe
     return @board[index] == " " ? false : true
   end
   
+  def valid_move?(index)
+  
 end
