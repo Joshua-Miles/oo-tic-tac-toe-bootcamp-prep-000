@@ -11,7 +11,8 @@ class TicTacToe
     [0, 4, 8]
   ]
   
-  def DISPLAY_BOARD()
-end
+  def display_board()
+  
+  end
   
 end
