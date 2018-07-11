@@ -45,5 +45,7 @@ class TicTacToe
   end
   
   def valid_move?(index)
+    return defined @board[index] && 
+  end
   
 end
