@@ -40,4 +40,8 @@ class TicTacToe
     
   end
   
+  def position_taken?(index)
+    return 
+  end
+  
 end
