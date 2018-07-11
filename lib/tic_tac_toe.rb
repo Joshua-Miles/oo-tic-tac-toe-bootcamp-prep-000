@@ -45,7 +45,10 @@ class TicTacToe
   end
   
   def valid_move?(index)
-    return defined @board[index] && 
+    return defined @board[index] && not position_taken(index)
+  end
+  
+  def turn()
   end
   
 end
