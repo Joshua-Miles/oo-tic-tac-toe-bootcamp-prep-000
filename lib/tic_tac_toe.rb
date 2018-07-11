@@ -1,4 +1,13 @@
 class TicTacToe 
+  
+  def initialize()
+    @board = [
+      " ", " ", " ",
+      " ", " ", " ",
+      " ", " ", " "
+    ]
+  end
+  
   WIN_COMBINATIONS = [
     [0, 1, 2],
     [3, 4, 5],
@@ -13,6 +22,10 @@ class TicTacToe
   
   def display_board()
   
+  end
+  
+  def input_to_index(input)
+    return 
   end
   
 end
