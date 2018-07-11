@@ -21,11 +21,11 @@ class TicTacToe
   ]
   
   def display_board()
-  
+    puts """ """
   end
   
   def input_to_index(input)
-    return 
+    return input.to_i - 1
   end
   
 end
